@@ -34,6 +34,7 @@ boolean kontrol=	c.compute(5,2,0);
 	 assertFalse(kontrol);
     
 }
+	@Test
 	public void testTambolunme(){
 	boolean kontrol=c.compute(1,3,5);
 	  
