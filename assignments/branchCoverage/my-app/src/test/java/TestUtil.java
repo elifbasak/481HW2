@@ -22,4 +22,15 @@ public class TestUtil {
 						
 						
 						}
+	@Test
+	public void testLengthMod2() {
+	boolean kontrol=c.compute(4,3);
+	  
+	  assertFalse(kontrol);
+						
+						
+		
+		
+		
+						}
 }
