@@ -30,7 +30,14 @@ public class TestUtil {
 						}
 	@Test(expected = RuntimeException.class)
 public void testRuntimeException() {
-boolean kontrol=	c.compute(0,2,5);
+boolean kontrol=	c.compute(5,2,0);
+	 assertFalse(kontrol);
     
 }
+	public void testTambolunme(){
+	boolean kontrol=c.compute(1,3,5);
+	  
+	  assertTrue(kontrol);
+						}
+	
 }
