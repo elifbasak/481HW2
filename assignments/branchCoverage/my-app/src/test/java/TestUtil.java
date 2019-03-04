@@ -27,10 +27,10 @@ public class TestUtil {
 	boolean kontrol=c.compute(4,3);
 	  
 	  assertFalse(kontrol);
-						
-						
-		
-		
-		
 						}
+	@Test(expected = RuntimeException.class)
+public void testRuntimeException() {
+boolean kontrol=	c.compute(0,2,5);
+    
+}
 }
