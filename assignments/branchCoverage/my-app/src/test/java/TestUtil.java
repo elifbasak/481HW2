@@ -40,5 +40,11 @@ boolean kontrol=	c.compute(5,2,0);
 	  
 	  assertTrue(kontrol);
 						}
+	@Test
+	public void testTambolunmeme(){
+	boolean kontrol=c.compute(3,5,5);
+	  
+	  assertFalse(kontrol);
+						}
 	
 }
